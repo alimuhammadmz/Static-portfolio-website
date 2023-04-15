@@ -1,0 +1,75 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+#home {
+	padding: 2rem;
+}
+
+#projects {
+	padding: 2rem;
+}
+
+#projects label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+#projects input {
+	display: block;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+#project-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.project {
+	display: block;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+
+.csharp {
+	background-color: #f44336;
+	color: #fff;
+}
+
+.cpp {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.nodejs {
+	background-color: #2196f3;
+	color: #fff;
+}
+
+/* Education page styles */
+#education {
+	padding: 2rem;
+}
+
+#education ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#education li {
+	margin-bottom: 1rem;
+}
