@@ -19,6 +19,10 @@ header {
 	padding: 2rem;
 }
 
+#certifications {
+	padding: 2rem;
+}
+
 #projects label {
 	display: block;
 	font-weight: bold;
@@ -33,6 +37,12 @@ header {
 }
 
 #project-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#certification-list {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -59,7 +69,21 @@ header {
 	color: #fff;
 }
 
-/* Education page styles */
+.cert1 {
+	background-color: #f44336;
+	color: #fff;
+}
+
+.cert2 {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.cert3 {
+	background-color: #2196f3;
+	color: #fff;
+}
+
 #education {
 	padding: 2rem;
 }
