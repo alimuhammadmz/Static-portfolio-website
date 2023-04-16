@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Ali Muhammad's personal site</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="..\styles\style.css">
 </head>
+
 <body>
 	<header>
 		<h1>Welcome to Ali Muhammad's personal website!</h1>
 	</header>
-	
-	<nav>
-		<ul>
-			<li><a href="home.html">Introduction</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="education.html">Education</a></li>
-			<li><a href="certifications.html">Certifications</a></li>
+	<button class="back-button" onclick="goBack()">Back</button>
+
+	<section id="certifications">
+		<h2>Certifications</h2>
+
+		<ul id="certification-list">
+			<li class="cert1">Scrum Foundation Professional Certificate - SFPC™</li>
+			<li class="cert2">AWS Academy Cloud Foundations - AWS</li>
+			<li class="cert3">Docker for the Absolute Beginner - KodeKloud</li>
 		</ul>
-	</nav>
+	</section>
 
 	<script src="..\scripts\script.js"></script>
 </body>
+
 </html>
